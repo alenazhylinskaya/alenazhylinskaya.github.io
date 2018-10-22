@@ -1,91 +1,132 @@
-
-.img-fluid{
-    height: 250px;
-    width: auto;
-    margin: 0 auto;
+.img-fluid
+{
+	height: 250px;
+	margin: 0 auto;
+	width: auto;
 }
-
-h1{
-    text-transform: uppercase;
-    color: #343a40;
+h1
+{
+	color: #343a40;
+	text-transform: uppercase;
 }
-
-
-.nav-link{
-    font-weight: 800;
-    letter-spacing: .05rem;
-    text-transform: uppercase;
-    color:#6bc0d7
+.nav-link
+{
+	color: #eeeeee;
+	font-weight: 800;
+	letter-spacing: .05rem;
+	text-transform: uppercase;
 }
-
-.nav-link:hover{
-    color: #eeeeee
+.nav-link:hover
+{
+	color: #6bc0d7;
 }
-
-.accent{
-    color:  cornflowerblue
+.bg-dark
+{
+	background-color: #203c5a!important;
 }
-
-section{
-        height: 100vh;
+.accent, a
+{
+	color: cornflowerblue;
 }
-
-section p {
-    font-size: 22px
+section
+{
+	height: 100vh;
 }
-section,.sidenav{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-       -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+section p
+{
+	font-size: 22px;
 }
-
-#about {
-    background-image: url(bg2.jpeg);
-    background-position: center;
-    background-color: #f8f9fa;
-    background-size: cover;
-    background-repeat: no-repeat;
+section,.sidenav
+{
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	flex-direction: column;
+	justify-content: center;
+	ms-flex-direction: column;
+	webkit-box-direction: normal;
+	webkit-box-orient: vertical;
 }
-
-.social-icons a {
-    display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
-    background-color: #203c5a;
-    color: #fff!important;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    margin:0.5rem
+#about
+{
+	background-attachment: fixed;
+	background-color: #f8f9fa;
+	background-image: url(bg2.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
-.social-icons a:hover{
-    background: cornflowerblue
+#education
+{
+	background-attachment: fixed;
+	background-color: #f8f9fa;
+	background-image: url(edu2.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
-@media (min-width: 991px){
-    h1{
- font-size: 4rem;
-    }
-section{
-    padding-left: 25rem!important;
+.social-icons a
+{
+	background-color: #203c5a;
+	border-radius: 100%;
+	color: #fff!important;
+	display: inline-block;
+	font-size: 1.5rem;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	margin: 0.5rem;
+	text-align: center;
+	width: 3.5rem;
 }
-
-.sidenav{
-    background-color: #203c5a;
-    position: fixed;
-    top: 0;
-    left: 0; 
-    width: 20rem;
-    height: 100vh;
+.social-icons a:hover
+{
+	background: cornflowerblue;
 }
-.navbar{
-       padding: 0;
+.list-group
+{
+	max-width: 500px;
 }
+@media (min-width: 991px)
+{
+	h1
+	{
+		font-size: 4rem;
+	}
+	section
+	{
+		padding-left: 25rem!important;
+	}
+	.sidenav
+	{
+		background-color: #203c5a;
+		height: 100vh;
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 20rem;
+	}
+	.navbar
+	{
+		padding: 0;
+	}
+}
+#myBtn
+{
+	background-color: #203c5a;
+	border: none;
+	border-radius: 50px;
+	bottom: 20px;
+	color: white;
+	cursor: pointer;
+	display: none;
+	font-size: 18px;
+	outline: none;
+	padding: 15px;
+	position: fixed;
+	right: 30px;
+	z-index: 99;
+}
+#myBtn:hover
+{
+	background-color: #555;
 }
